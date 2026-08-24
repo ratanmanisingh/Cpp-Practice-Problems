@@ -10,3 +10,4 @@ int main(){
     cout<< sum(10,15,25,30)<<endl;
     cout<< sum(10,15)<<endl;
 }
+
