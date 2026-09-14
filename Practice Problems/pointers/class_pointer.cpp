@@ -29,7 +29,7 @@ class array{
             cout<<"Enter value of s= ";
             cin>>s;
         }
-        void add(){
+        void display(){
             cout<<"s value= "<<s;
             cout<<"\nAddress of s= "<<&s;
         }
@@ -39,8 +39,8 @@ int main(){
     array a;
     array *p=&a;
     // p->getdata();
-    // p->add();
+    // p->display();
     (*p).getdata();
-    (*p).add();
+    (*p).display();
     return 0;
 }
