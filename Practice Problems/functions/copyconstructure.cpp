@@ -9,8 +9,6 @@ class Student{
         cout<<roll<<"\t"<<name<<endl;
     }
 
-
-
 };
 int main() {
 
